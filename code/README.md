@@ -14,6 +14,12 @@ function input = error "Invalid input"
 ```
 This calls an exception and points the location in the code where the exception was caught.
 
+### Show function
+
+Any input on ghci is put into `show` function which then prints out the result into a readable manner. This does not happen for functions, since there is no neat string to Show a function.
+
+- `:` is much cheaper computationally compared to `++`. (Need to know why)
+
 ## Intro
 
 Basic intro of syntax
